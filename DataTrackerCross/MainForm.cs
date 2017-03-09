@@ -19,7 +19,7 @@ namespace DataTrackerCross
                     "Hello World!",
                     // add more controls here
                 }
-            };
+            }; 
 
 			// create a few commands that can be used for the menu and toolbar
 			var clickMe = new Command { MenuText = "Click Me!", ToolBarText = "Click Me!" };
