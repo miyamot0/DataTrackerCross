@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DataTrackerCross", "DataTrackerCross\DataTrackerCross.shproj", "{1BA6D445-2A81-4442-8D07-C8E41FB59209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTrackerCross.Gtk2", "DataTrackerCross.Gtk2\DataTrackerCross.Gtk2.csproj", "{BCC8C544-05E3-4547-A274-ABF95044768C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTrackerCross.Gtk3", "DataTrackerCross.Gtk3\DataTrackerCross.Gtk3.csproj", "{8C288BF1-D17E-4C79-90E2-D73ACB8AA2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTrackerCross.Wpf", "DataTrackerCross.Wpf\DataTrackerCross.Wpf.csproj", "{18FA0DED-819E-4DBD-9A84-C7DD839AC2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTrackerCross.WinForms", "DataTrackerCross.WinForms\DataTrackerCross.WinForms.csproj", "{A47B873C-EF95-4550-9B5F-30DB68BA6B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTrackerCross.Mac", "DataTrackerCross.Mac\DataTrackerCross.Mac.csproj", "{948923B2-F6AF-449E-BD43-494F4E7A30B4}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DataTrackerCross\DataTrackerCross.projitems*{1ba6d445-2a81-4442-8d07-c8e41fb59209}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC8C544-05E3-4547-A274-ABF95044768C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC8C544-05E3-4547-A274-ABF95044768C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC8C544-05E3-4547-A274-ABF95044768C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC8C544-05E3-4547-A274-ABF95044768C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C288BF1-D17E-4C79-90E2-D73ACB8AA2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C288BF1-D17E-4C79-90E2-D73ACB8AA2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C288BF1-D17E-4C79-90E2-D73ACB8AA2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C288BF1-D17E-4C79-90E2-D73ACB8AA2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FA0DED-819E-4DBD-9A84-C7DD839AC2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FA0DED-819E-4DBD-9A84-C7DD839AC2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FA0DED-819E-4DBD-9A84-C7DD839AC2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FA0DED-819E-4DBD-9A84-C7DD839AC2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A47B873C-EF95-4550-9B5F-30DB68BA6B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47B873C-EF95-4550-9B5F-30DB68BA6B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47B873C-EF95-4550-9B5F-30DB68BA6B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47B873C-EF95-4550-9B5F-30DB68BA6B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948923B2-F6AF-449E-BD43-494F4E7A30B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948923B2-F6AF-449E-BD43-494F4E7A30B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948923B2-F6AF-449E-BD43-494F4E7A30B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948923B2-F6AF-449E-BD43-494F4E7A30B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
